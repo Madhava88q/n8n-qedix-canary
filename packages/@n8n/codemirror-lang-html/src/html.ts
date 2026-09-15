@@ -231,3 +231,5 @@ export const autoCloseTags = EditorView.inputHandler.of((view, from, to, text) =
 	view.dispatch(changes, { userEvent: 'input.type', scrollIntoView: true });
 	return true;
 });
+
+// QEDIX production canary: semantic no-op; do not merge.
